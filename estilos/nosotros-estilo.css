@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(90deg, #a6a6a6, #ffffff);
+}
+
+.barra-navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
