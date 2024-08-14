@@ -43,8 +43,10 @@ a{
 }
 
 .contenedor-texto1 h1{
+    position: relative;
+    top: 30px;
     font-family: 'Roca One';
-    font-size: 76px;
+    font-size: 5em;
     color: #EF1434;
 }
 
@@ -58,8 +60,11 @@ a{
     font-size: 32px;
     color: #EF1434;
     font-weight: bold;
+    position: relative;
 }
 .imagen{
     border-radius: 32px;
     width: 80%;
 }
+
+  

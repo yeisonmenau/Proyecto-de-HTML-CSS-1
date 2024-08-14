@@ -66,3 +66,19 @@ main {
 .grupo-formulario input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+iframe{
+    float: left;
+}
+.contenedor-mapa{
+    padding-top: 18px;
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+p { 
+    font-size: 32px;
+    font-weight: bold;
+}
