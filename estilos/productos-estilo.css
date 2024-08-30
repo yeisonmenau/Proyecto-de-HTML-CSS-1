@@ -44,3 +44,7 @@ a{
     position: absolute;
     left: 1030px;
 }
+.contenedor-texto2 a{
+    font-size: 32px;
+    color: #EF1434;
+}

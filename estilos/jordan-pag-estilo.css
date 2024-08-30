@@ -1,0 +1,171 @@
+body{
+    background: linear-gradient(90deg, #a6a6a6, #ffffff);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.barra-navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.barra-navegacion ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.boton-personalizado {
+    background-color: #EF1434; 
+    border: none;
+    color: white;
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    transition-duration: 0.4s; 
+}
+
+.boton-personalizado:hover {
+    background-color: white;
+    color:#EF1434; 
+
+}
+
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 100px;
+    background-image: url("/imagenes/fondo-jordan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+.section2-flotante{
+    display: flex;
+    justify-content: center;
+}
+
+.section2-flotante div{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    position: absolute;
+    top: 400px;
+}
+.section2-flotante img{
+    width: 200px;
+    border-radius: 32px;
+}
+
+.galeria h2, .acerca h2, .envios h2{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 50px;
+}
+
+.galeria div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.galeria div img{
+    width: 250px;
+    border-radius: 32px;
+    border: black solid 1px;
+}
+.acerca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.acerca div{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.acerca div article img{
+    width: 300px;
+    border-radius: 32px;
+}
+
+.acerca div article {
+    width: 40%;
+    
+}
+
+.envios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.envios div{
+    position: relative;
+    margin-top: 20px;
+}
+.envios div img{
+    width: 300px;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.section3 article{
+    flex-wrap: nowrap;
+}
+
+.section3 article figure img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+footer {
+    background-color: #EF1434;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contenedor-footer a img {
+    width: 32px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.contenedor-footer a img:hover {
+    opacity: 0.7;
+}
